@@ -1,0 +1,7 @@
+{
+  "fields": [
+    { "type": "vector", "path": "embedding", "numDimensions": 3072, "similarity": "cosine" },
+    { "type": "filter", "path": "chatId" },
+    { "type": "filter", "path": "userId" }
+  ]
+}
